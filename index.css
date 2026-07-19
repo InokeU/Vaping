@@ -10,4 +10,11 @@ body {
     background-color: gray;
 }
 
-section ()
+.navigation_bar {
+    display: flex;
+    background-color: peachpuff;
+}
+
+nav a {
+    padding: 15px;
+}
