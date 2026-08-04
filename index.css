@@ -2,7 +2,7 @@
     background-color: rgb(214, 157, 157);
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 nav {
@@ -12,16 +12,19 @@ nav {
 
 nav a {
     padding: 35px;
+    align-items: center;
+}
+
+.side_bar {
+    display: flex;
+    background-color: peachpuff;
+    height: 10px;
+
 }
 
 
 body {
     background-color: rgb(255, 255, 255);
-}
-
-.navigation_bar {
-    display: flex;
-    background-color: peachpuff;
 }
 
 footer {
