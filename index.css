@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe5a8;
+    padding: 5px 15px;
+}
+
 nav {
     background-color: rgb(129, 82, 82);
     padding: 10px;
