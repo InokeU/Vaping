@@ -12,13 +12,14 @@ header {
 }
 
 nav {
-    background-color: rgb(129, 82, 82);
+    background: color #ffbf60;;
     padding: 10px;
 }
 
 nav a {
     padding: 35px;
     align-items: center;
+    background-color: #FFB8AD;
 }
 
 .side_bar {
