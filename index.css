@@ -16,6 +16,12 @@ nav {
     padding: 10px;
 }
 
+.section_header_one {
+    background-color: #ffe5a8;
+    padding: 5px 15px;
+    
+}
+
 nav a {
     padding: 35px;
     align-items: center;
