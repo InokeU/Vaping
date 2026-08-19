@@ -11,15 +11,24 @@ header {
     padding: 5px 15px;
 }
 
-nav {
-    background: color #ffbf60;;
-    padding: 10px;
+.hero_image p {
+    background-color: #FFB8AD;
 }
 
 .section_header_one {
-    background-color: #ffe5a8;
-    padding: 5px 15px;
-    align-items: lastz;
+
+    background-color: #ffc558;
+
+}
+
+.paragraph_1 {
+    background-color: #FFB8AD;
+    padding: 100px;
+}
+
+nav {
+    background: color #ffbf60;
+    padding: 10px;
 }
 
 nav a {
