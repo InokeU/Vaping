@@ -37,7 +37,9 @@ nav a {
 }
 
 .side_bar {
-    display: flex;
+
+    background-color: #ffe5a8;
+
 }
 
 body {
