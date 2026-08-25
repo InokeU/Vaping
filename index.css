@@ -27,23 +27,18 @@ header {
 }
 
 nav {
-    background: color #ffbf60;
     padding: 10px;
 }
 
 nav a {
-    padding: 35px;
-    align-items: center;
+    padding: 15px 10px;
+    display: inline-block;
     background-color: #FFB8AD;
 }
 
 .side_bar {
     display: flex;
-    background-color: peachpuff;
-    height: 10px;
-
 }
-
 
 body {
     background-color: rgb(255, 255, 255);
@@ -53,7 +48,3 @@ footer {
     background-color: rgb(255, 191, 0);
 }
 
-.side_bar {
-    width: 200px;
-    padding: 40px;
-}
