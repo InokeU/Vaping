@@ -11,9 +11,13 @@ header {
     padding: 5px 15px;
 }
 
-.hero_image p {
+.hero {
     background-color: #FFB8AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .section_header_one {
 
