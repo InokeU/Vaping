@@ -26,6 +26,11 @@ header {
     background-color: #FFB8AD;
     border: 3px solid #ee978a;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
