@@ -20,7 +20,12 @@ header {
 }
 
 .hero_text {
+    width: 450px;
+    height: 150px;
 
+    background-color: #FFB8AD;
+    border: 3px solid #ee978a;
+    border-radius: 20px;
 }
 
 
