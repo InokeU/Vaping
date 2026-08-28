@@ -25,7 +25,7 @@ header {
     height: 255px;
 
     background-color: #FFB8AD;
-    border: 3px solid #ee978a;
+    border: 5px solid #ee978a;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
