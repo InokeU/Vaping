@@ -12,10 +12,15 @@ header {
 }
 
 .hero {
-    background-color: #FFB8AD;
+    height: 125px;
+    background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.hero_text {
+
 }
 
 
