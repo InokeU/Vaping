@@ -38,6 +38,16 @@ header {
 .section_header_one {
 
     background-color: #ffc558;
+    text-align: right;
+    padding: 5px 10px;
+
+}
+
+.section_header_one h2 {
+
+    background-color: #ffc558;
+    text-align: right;
+    padding-right: 200px;
 
 }
 
