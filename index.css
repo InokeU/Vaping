@@ -52,11 +52,13 @@ header {
 }
 
 .content {
-
+    display: grid;
+    grid-template-columns: 300px 1fr 200px;
 }
 
 .paragraph_1 {
     background-color: #FFB8AD;
+    width: ;
 }
 
 .image_one {
@@ -79,6 +81,7 @@ nav a {
 .side_bar {
 
     background-color: #ffe5a8;
+    padding: 50px;
 
 }
 
