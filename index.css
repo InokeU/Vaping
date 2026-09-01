@@ -51,9 +51,19 @@ header {
 
 }
 
+.content {
+
+}
+
 .paragraph_1 {
     background-color: #FFB8AD;
-    padding: 100px;
+}
+
+.image_one {
+    width: 100%;
+    height: 100%;
+    border: 6px solid black;
+    object-fit: cover;
 }
 
 nav {
