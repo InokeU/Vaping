@@ -53,12 +53,11 @@ header {
 
 .content {
     display: grid;
-    grid-template-columns: 300px 1fr 200px;
+    grid-template-columns: 250px 1fr 350px;
 }
 
 .paragraph_1 {
     background-color: #FFB8AD;
-    width: ;
 }
 
 .image_one {
@@ -81,7 +80,7 @@ nav a {
 .side_bar {
 
     background-color: #ffe5a8;
-    padding: 50px;
+    padding: 30px;
 
 }
 
