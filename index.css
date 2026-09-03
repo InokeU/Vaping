@@ -68,9 +68,9 @@ header {
 }
 
 .paragraph_one,.paragraph_two {
-    border: 6px solid black;
+    border: 6px solid #ee978a;
     margin: 10px;
-    background-color: #ee978a;
+    background-color: #FFB8AD;
     display: flex;
     flex: 1;
     justify-content: center;
