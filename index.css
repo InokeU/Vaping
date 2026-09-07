@@ -59,17 +59,14 @@ header {
 }
 
 .paragraph {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    height: 100%;
     gap: 10px;
     padding: 10px;
 }
 
 .paragraph_one,.paragraph_two {
     border: 6px solid #ee978a;
-    margin: 10px;
     background-color: #FFB8AD;
     display: flex;
     flex: 1;
@@ -84,7 +81,6 @@ header {
     width: 100%;
     height: 100%;
     border: 6px solid black;
-    object-fit: cover;
 }
 
 nav {
@@ -95,10 +91,11 @@ nav a {
     padding: 15px 10px;
     display: inline-block;
     border: 6px solid #ee978a;
+    border-radius: 6px;
     background-color: #FFB8AD;
 }
 
-.side_bar {
+.right_content {
 
     background-color: #ffe5a8;
     padding: 30px;
@@ -109,7 +106,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-footer {
-    background-color: rgb(255, 191, 0);
+.footer {
+    text-align: center;
+    background-color: #ffcb52;
+    padding: 20px 0 20px 0;
 }
 
