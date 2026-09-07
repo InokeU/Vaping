@@ -104,13 +104,12 @@ header {
     width: 100%;
     align-items: center;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.fun_facts h2 {
-    text-align: center;
-}
-
-.fun_facts p {
+.fun_facts h2, .fun_facts p{
     text-align: center;
 }
 
