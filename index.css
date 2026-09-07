@@ -57,7 +57,7 @@ header {
 
 .content {
     display: grid;
-    grid-template-columns: 250px 1fr 300px;
+    grid-template-columns: 250px 1fr 350px;
     min-height: 700px;
     gap: 10px;
 }
@@ -83,19 +83,35 @@ header {
 .right_content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 35px;
     padding: 10px;
     min-width: 0;
 }
 
 .image_one {
-    flex: 2;
     border: 6px solid black;
+    width: 100%;
 }
 
 .image_one img {
     width: 100%;
     height: 300px;
+    display: block;
+}
+
+.fun_facts {
+    border: 6px solid black;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+}
+
+.fun_facts h2 {
+    text-align: center;
+}
+
+.fun_facts p {
+    text-align: center;
 }
 
 nav {
