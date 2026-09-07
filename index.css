@@ -15,6 +15,17 @@ header {
     padding: 5px 15px;
 }
 
+.logo {
+    display: flex;
+    border: 6px solid #ee978a;
+    border-radius: 6px;
+    background-color: #FFB8AD;
+    height: 90px
+}
+
+.logo h1 {
+    font-style: italic;
+}
 .hero {
     height: 300px;
     background-color: white;
