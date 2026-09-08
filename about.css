@@ -53,22 +53,23 @@ header {
 }
 
 
-.content {
-    display: grid;
-    grid-template-columns: 250px 1fr 350px;
-    min-height: 700px;
-    gap: 10px;
+.section_two {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #ffb777;
+    border: 6px solid #f8a054;
+    border-radius: 6px;
+    padding: 100px;
+    min-height: 500px;
 }
 
-.image_one {
+.image_one, .paragraph_two {
+    flex: 1;
     border: 6px solid black;
-    width: 100%;
-}
-
-.image_one img {
-    width: 100%;
-    height: 300px;
-    display: block;
+    height: 300;
+    background-color: white;
+    text-align: center;
 }
 
 nav {
