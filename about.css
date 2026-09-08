@@ -27,51 +27,12 @@ header {
     padding: 5px 15px;
 }
 
-.hero {
-    height: 300px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-.hero_text {
-    width: 500px;
-    height: 255px;
-
-    background-color: #FFB8AD;
-    border: 5px solid #ee978a;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
-.section_header_one {
+.section_header {
 
     background-color: #ffc558;
-    text-align: right;
+    text-align: center;
     padding: 5px 10px;
 
-}
-
-.section_header_one h2 {
-
-    background-color: #ffc558;
-    text-align: right;
-    padding-right: 200px;
-
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 250px 1fr 350px;
-    min-height: 700px;
-    gap: 10px;
 }
 
 .paragraph {
@@ -81,23 +42,22 @@ header {
     padding: 10px;
 }
 
-.paragraph_one,.paragraph_two {
+.paragraph_one {
     border: 6px solid #ee978a;
     background-color: #FFB8AD;
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 50px;
 }
 
-.right_content {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    padding: 10px;
-    min-width: 0;
+
+.content {
+    display: grid;
+    grid-template-columns: 250px 1fr 350px;
+    min-height: 700px;
+    gap: 10px;
 }
 
 .image_one {
@@ -109,20 +69,6 @@ header {
     width: 100%;
     height: 300px;
     display: block;
-}
-
-.fun_facts {
-    border: 6px solid black;
-    width: 100%;
-    align-items: center;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.fun_facts h2, .fun_facts p{
-    text-align: center;
 }
 
 nav {
@@ -155,4 +101,3 @@ body {
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
 }
-
