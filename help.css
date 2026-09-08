@@ -35,23 +35,9 @@ header {
 
 }
 
-.paragraph {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+.video_one, .video_two, .video_three {
+    border: 2px solid black;
 }
-
-.paragraph_one {
-    border: 6px solid #ee978a;
-    background-color: #FFB8AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-}
-
 
 .section_two {
     display: flex;
