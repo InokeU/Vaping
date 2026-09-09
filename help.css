@@ -59,6 +59,7 @@ header {
 .content {
 
     background: #FFB8AD;
+    justify-content: center;
 
 }
 
@@ -73,17 +74,19 @@ header {
 
 .image_one {
 
-    margin: 10px;
     border: 6px solid black;
     height: 500px;
+    width: 500px;
+    margin: 15px;
 
 }
 
 .image_one img {
 
     width: 100%;
-    object-fit: cover;
     height: 100%;
+    object-fit: cover;
+    display: block;
 
 }
 
@@ -110,5 +113,5 @@ body {
     text-align: center;
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
-    
+
 }
