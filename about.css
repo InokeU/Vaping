@@ -64,11 +64,16 @@ header {
     min-height: 700px;
 }
 
-
+.paragraph_two {
+    border: 6px solid #ee978a;
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+}
 
 .image_one {
     flex: 1;
-    border: 6px solid black;
+    border: 6px solid #ee978a;
     height: 500px;
     text-align: center;
 }
