@@ -56,6 +56,11 @@ header {
     flex: 1;
 }
 
+.videos iframe {
+    width: 100%;
+    display: block;
+}
+
 .content {
 
     background: #FFB8AD;
@@ -108,7 +113,7 @@ header {
     text-align: center;
 }
 
-.para
+
 
 nav {
     padding: 10px;
