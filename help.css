@@ -48,11 +48,12 @@ header {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    margin: 15px;
 
 }
 
 .video_one, .video_two, .video_three {
-    border: 2px solid black;
+    border: 6px solid black;
     flex: 1;
 }
 
