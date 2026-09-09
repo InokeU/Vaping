@@ -89,6 +89,7 @@ header {
     border: 6px solid #ee978a;
     background-color: #FFB8AD;
     display: flex;
+    flex-direction: column;
     flex: 1;
     justify-content: center;
     align-items: center;
