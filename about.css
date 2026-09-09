@@ -65,8 +65,8 @@ header {
 }
 
 .paragraph_two {
-    border: 6px solid #ee978a;
-    background-color: antiquewhite;
+    border: 6px solid #000000;
+    background-color: rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
 }
@@ -74,7 +74,8 @@ header {
 .image_one {
     flex: 1;
     border: 6px solid #ee978a;
-    height: 500px;
+    height: 800px;
+    width: auto;
     text-align: center;
 }
 

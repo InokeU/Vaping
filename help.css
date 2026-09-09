@@ -54,6 +54,7 @@ header {
 
 .video_one, .video_two, .video_three {
     border: 6px solid black;
+    border-radius: 14px;
     flex: 1;
 }
 
@@ -66,6 +67,8 @@ header {
 
     background: #FFB8AD;
     margin: 10px;
+    border: 8px solid #ee978a;
+    border-radius: 14px;
 
 }
 
