@@ -44,6 +44,7 @@ header {
 
 .paragraph_one {
     border: 6px solid #ee978a;
+    border-radius: 14px;
     background-color: #FFB8AD;
     display: flex;
     justify-content: center;
@@ -66,6 +67,7 @@ header {
 
 .paragraph_two {
     border: 6px solid #000000;
+    border-radius: 14px;
     background-color: rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
