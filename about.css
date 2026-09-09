@@ -64,19 +64,21 @@ header {
     min-height: 700px;
 }
 
-.image_one, .paragraph_two {
+
+
+.image_one {
     flex: 1;
     border: 6px solid black;
     height: 500px;
-    background-color: white;
     text-align: center;
 }
 
 .image_one img {
+
     object-fit: cover;
-    display: block;
     width: 100%;
     height: 100%;
+
 }
 
 nav {
