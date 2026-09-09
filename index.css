@@ -2,6 +2,35 @@
     box-sizing: border-box;
 }
 
+h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+
+}
+
+h2 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h3 {
+
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p, a {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+a {
+    font-style: italic;
+}
+
 .container {
     width: 100%;
     margin: 0;
