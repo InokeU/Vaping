@@ -91,6 +91,25 @@ header {
 
 }
 
+.paragraph {
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    margin-top: 100px;
+    border: 6px solid black;
+    background-color: white;
+}
+
+.paragraph h2 {
+    font-style: italic;
+}
+
+.paragraph_one p, .paragraph_one h2 {
+    text-align: center;
+}
+
+.para
+
 nav {
     padding: 10px;
 }
