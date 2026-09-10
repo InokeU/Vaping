@@ -192,10 +192,18 @@ header {
     background-color: white;
     width: 100%;
     align-items: center;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
+}
+
+.paragraph_three ul {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 10px;
+
 }
 
 .fun_facts h2, .fun_facts p{
