@@ -62,7 +62,8 @@ aside a {
     width: 100%;
     margin-bottom: 25px;
     padding: 8px;
-    border: 3px solid #ee978a;
+    border: 6px solid #ee978a;
+    border-radius: 45%;
     background-color: #FFB8AD;
 }
 

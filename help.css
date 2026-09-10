@@ -36,6 +36,11 @@ aside a:hover {
     color: #ee978a;
 }
 
+aside ul {
+    display: flex;
+    flex-direction: column;
+}
+
 nav a:hover {
     background-color: rgb(255, 255, 126);
     color: #ee978a;
@@ -125,13 +130,20 @@ aside a {
     margin-right: auto;
     margin-bottom: 25px;
     padding: 8px;
-    border: 3px solid #ee978a;
+    border: 6px solid #ee978a;
+    border-radius: 45%;
     background-color: #FFB8AD;
 }
 
 aside ul {
 
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
     padding-left: 0;
+    text-align: center;
     margin: 0 0 10px 0;
 
 }
