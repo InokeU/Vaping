@@ -141,7 +141,7 @@ aside ul {
 
     border: 6px solid black;
     height: 500px;
-    width: 600px;
+    width: 100%;
     margin-top: 100px;
     justify-self: center;
 
@@ -159,7 +159,7 @@ aside ul {
 .paragraph {
 
     height: 500px;
-    width: 750px;
+    width: 100%;
     margin-top: 100px;
     border: 6px solid black;
     background-color: white;
