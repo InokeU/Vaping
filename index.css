@@ -23,8 +23,8 @@ h3 {
 
 }
 
-p, a {
-    font-size: 20px;
+p, a, ul {
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }

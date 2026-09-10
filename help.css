@@ -21,8 +21,8 @@ h3 {
 
 }
 
-p, a {
-    font-size: 20px;
+p, a, ul {
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
@@ -158,7 +158,7 @@ aside ul {
 
 .paragraph {
 
-    height: 500px;
+    height: auto;
     width: 100%;
     margin-top: 100px;
     border: 6px solid black;
@@ -175,7 +175,10 @@ aside ul {
     text-align: center;
 }
 
-
+.paragraph_one ul {
+    list-style-type: none;
+    text-align: center;
+}
 
 nav {
     padding: 10px;
