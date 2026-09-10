@@ -12,12 +12,14 @@ h1 {
 h2 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
 
 }
 
 h3 {
 
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
 
 }
 
@@ -192,5 +194,6 @@ body {
     text-align: center;
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
+    font-style: italic;
 }
 
