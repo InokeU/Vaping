@@ -104,6 +104,11 @@ header {
     text-align: center;
 }
 
+nav a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
+
 .image_one {
     flex: 1;
     border: 6px solid #ee978a;

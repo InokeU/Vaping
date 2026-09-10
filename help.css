@@ -36,7 +36,10 @@ aside a:hover {
     color: #ee978a;
 }
 
-
+nav a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
 
 .container {
     width: 100%;
