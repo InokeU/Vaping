@@ -53,8 +53,6 @@ nav a:hover {
 
 .logo {
     display: flex;
-    border: 6px solid #ee978a;
-    border-radius: 6px;
     background-color: #FFB8AD;
     height: 90px
 }
@@ -97,8 +95,6 @@ header {
 }
 
 .video_one, .video_two, .video_three {
-    border: 6px solid black;
-    border-radius: 14px;
     flex: 1;
 }
 
@@ -111,8 +107,6 @@ header {
 
     background: #ffe0db;
     margin: 10px;
-    border: 8px solid #ee978a;
-    border-radius: 14px;
 
 }
 
@@ -130,8 +124,6 @@ aside a {
     margin-right: auto;
     margin-bottom: 25px;
     padding: 8px;
-    border: 6px solid #ee978a;
-    border-radius: 45%;
     background-color: #FFB8AD;
 }
 
@@ -151,7 +143,6 @@ aside ul {
 
 .image_one {
 
-    border: 6px solid black;
     height: 500px;
     width: 100%;
     margin-top: 100px;
@@ -173,7 +164,6 @@ aside ul {
     height: auto;
     width: 100%;
     margin-top: 100px;
-    border: 6px solid black;
     background-color: white;
     justify-self: center;
 
@@ -199,8 +189,6 @@ nav {
 nav a {
     padding: 15px 10px;
     display: inline-block;
-    border: 6px solid #ee978a;
-    border-radius: 6px;
     background-color: #FFB8AD;
 }
 
@@ -215,6 +203,6 @@ body {
     text-align: center;
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
-       font-style: italic;
+    font-style: italic;
 
 }
