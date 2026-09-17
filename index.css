@@ -98,8 +98,9 @@ header {
 }
 
 .hero_text {
-    width: 500px;
-    height: 255px;
+    width: 90%;
+    max-width: 500px;
+    min-height: 255px;
 
     background-color: #FFB8AD;
     display: flex;
