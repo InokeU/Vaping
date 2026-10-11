@@ -131,13 +131,15 @@ header {
     text-align: center;
 }
 
-.hero_image {
-    border: 100px;
-    width: 300px;
-    height: 250px;
+
+
+.hero_image_one img,
+.hero_image_two img {
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+   display: block;
 }
-
-
 
 .section_header_one {
 
