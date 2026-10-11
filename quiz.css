@@ -1,3 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+
+    font-family: "Geologica", sans-serif;
+    font-family: "Geologica";
+    
+}
+
+h1 {
+    font-family: "Archivo Black";
+    font-size: 35px;
+
+}
+
+h2 {
+    font-family: "Archivo Black";
+    font-size: 32px;
+}
+
+h3 {
+
+     font-size: 20px;
+
+}
+
+p, a, ul {
+
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+a {
+    font-style: italic;
+}
+
+aside a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
+
+aside ul {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+aside a {
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 8px;
+    background-color: #FFB8AD;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe5a8;
+    padding: 5px 15px;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .quiz_container {
     max-width: 900px;
     margin: 0 auto;
@@ -23,4 +124,11 @@
     gap: 16px;
     margin-bottom: 20px;
 }
+
+.quiz_container .option {
+   border: none;
+   padding: 24px 32px;
+   font-size: 18px;
+}
+
 
