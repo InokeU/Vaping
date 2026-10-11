@@ -129,6 +129,25 @@ header {
    border: none;
    padding: 24px 32px;
    font-size: 18px;
+   cursor: pointer;
 }
 
+.option.correct {
+    background: green;
+    color: #222;
+}
 
+.option.incorrect {
+    background: red;
+}
+
+.quiz_container .next-btn {
+
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
