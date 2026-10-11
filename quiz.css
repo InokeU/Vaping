@@ -1,0 +1,26 @@
+.quiz_container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.quiz_container .timer {
+    font-weight: bold;
+    text-align: right;
+}
+
+.quiz_container h2.question {
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.quiz_container .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
