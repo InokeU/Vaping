@@ -141,7 +141,8 @@ header {
     background: red;
 }
 
-.quiz_container .next-btn {
+.quiz_container .next-btn,
+.quiz_result .retake_btn {
 
     background: #222;
     color: #fff;
@@ -151,4 +152,5 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
+    cursor: pointer;
 }
