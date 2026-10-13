@@ -153,4 +153,28 @@ header {
     font-weight: bold;
     letter-spacing: 3px;
     cursor: pointer;
+    width: fit-content;
 }
+
+.quiz_result {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    padding: 16px;
+}
+
+.quiz_result .question_container {
+    padding: 12px;
+    border: 1px solid lightgray;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz_result .question_container.incorrect {
+    background: red;
+    color: white;
+}
+
