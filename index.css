@@ -101,8 +101,7 @@ header {
 
 .logo {
     display: flex;
-    background-color: #FFB8AD;
-    height: 100px
+    height: 150px;
 }
 
 .logo h1 {
