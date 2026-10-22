@@ -79,7 +79,7 @@ aside a {
     display: inline-block;
     margin-bottom: 30px;
     padding: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .container {
@@ -133,8 +133,6 @@ header {
     text-align: center;
 }
 
-
-
 .hero_image_one img,
 .hero_image_two img {
    width: 100%;
@@ -157,8 +155,6 @@ header {
     font-size: 32px;
     font-style: italic;
     color: black;
-
-
 }
 
 .content {
@@ -192,6 +188,23 @@ header {
     align-items: center;
     text-align: center;
     padding: 50px;
+    border-radius: 16px;
+}
+
+.shorttext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shorttext_one,
+.shorttext_two,
+.shorttext_three,
+.shorttext_four
+
+{
+    border: 6px solid rgb(209, 125, 125);
+    background-color: rgb(255, 161, 161);
 }
 
 @media (max-width: 900px) {
@@ -228,6 +241,7 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    border-radius: 16px;
 }
 
 .paragraph_three ul {

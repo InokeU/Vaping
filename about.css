@@ -2,46 +2,240 @@
     box-sizing: border-box;
 }
 
-h1 {
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+
+    font-family: "Geologica", sans-serif;
+    font-family: "Geologica";
+    
+}
+
+h1 {
+    font-family: "Archivo Black";
     font-size: 35px;
 
 }
 
 h2 {
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: "Archivo Black";
+    font-size: 20px;
 }
 
 h3 {
 
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
 
 }
 
-p, a {
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+p, a, ul {
 
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+  
 }
 
 a {
     font-style: italic;
+    color: black;
 }
 
+aside a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
 
+nav a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
+
+aside ul {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+aside a {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 8px;
+    text-decoration: none;
+}
 
 .container {
     width: 100%;
     margin: 0;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe5a8;
+    padding: 5px 15px;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .logo {
     display: flex;
+    height: 150px;
+    padding-left: 20px;
+}
+
+.logo h1 {
+    font-style: italic;
+}
+
+.section_header h2 {
+
+    background-color: #ffc558;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    color: black;
+}
+
+.content {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: 250px 1fr 350px;
+    min-height: 700px;
+    gap: 10px;
+    background-color: #ffe0db;
+}
+
+@media (max-width: 900px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.paragraph_one,.paragraph_two {
     background-color: #FFB8AD;
-    height: 90px
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+
+@media (max-width: 900px) {
+    .paragraph_one,
+    .paragraph_two {
+        padding: 20px;
+    }
+}
+
+.right_content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 10px;
+    min-width: 0;
+}
+
+.image_one {
+    width: 100%;
+}
+
+.image_one img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fun_facts {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.paragraph_three ul {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.fun_facts h2, .fun_facts p{
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.side_bar {
+
+    background-color: #ffe5a8;
+    padding: 30px;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    text-align: center;
+    background-color: #ffcb52;
+    padding: 20px 0 20px 0;
+    font-style: italic;
+}
+
+
+
+.logo {
+    display: flex;
+    height: 150px;
+    padding-left: 20px;
 }
 
 .logo h1 {
@@ -116,24 +310,12 @@ nav a:hover {
 
 }
 
-nav {
-    padding: 10px;
-}
-
-nav a {
-    padding: 15px 10px;
-    display: inline-block;
-    background-color: #FFB8AD;
-}
-
 .side_bar {
 
     background-color: #ffe5a8;
     padding: 30px;
 
 }
-
-
 
 body {
     background-color: rgb(255, 255, 255);
