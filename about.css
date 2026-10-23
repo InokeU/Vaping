@@ -123,23 +123,13 @@ header {
     border-radius: 16px;
 }
 
+
+
 @media (max-width: 900px) {
     .paragraph_one,
     .paragraph_two {
         padding: 20px;
     }
-}
-
-.fun_facts {
-    background-color: white;
-    width: 100%;
-    align-items: center;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 16px;
 }
 
 .paragraph_three {
@@ -151,10 +141,6 @@ header {
 
 }
 
-.fun_facts h2, .fun_facts p{
-    text-align: center;
-}
-
 nav {
     padding: 10px;
 }
@@ -162,13 +148,6 @@ nav {
 nav a {
     padding: 15px 10px;
     display: inline-block;
-}
-
-.side_bar {
-
-    background-color: #ffe5a8;
-    padding: 30px;
-
 }
 
 body {
@@ -179,18 +158,6 @@ body {
     text-align: center;
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
-    font-style: italic;
-}
-
-
-
-.logo {
-    display: flex;
-    height: 150px;
-    padding-left: 20px;
-}
-
-.logo h1 {
     font-style: italic;
 }
 
@@ -208,22 +175,6 @@ header {
     text-align: center;
     padding: 5px 10px;
 
-}
-
-.paragraph {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-}
-
-.paragraph_one {
-    background-color: #FFB8AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
 }
 
 
