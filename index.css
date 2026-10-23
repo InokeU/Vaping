@@ -107,10 +107,6 @@ header {
     padding-left: 20px;
 }
 
-.logo h1 {
-    font-style: italic;
-}
-
 .hero {
     min-height: 300px;
     background-color: white;

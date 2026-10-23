@@ -2,43 +2,54 @@
     box-sizing: border-box;
 }
 
-h1 {
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+
+    font-family: "Geologica", sans-serif;
+    font-family: "Geologica";
+    
+}
+
+h1 {
+    font-family: "Archivo Black";
     font-size: 35px;
 
 }
 
 h2 {
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: "Archivo Black";
+    font-size: 20px;
 }
 
 h3 {
 
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
 
 }
 
 p, a, ul {
+
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    letter-spacing: 1.5px;
 
 }
 
 a {
     font-style: italic;
-}
-
-aside a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
-}
-
-aside ul {
-    display: flex;
-    flex-direction: column;
+    color: black;
 }
 
 nav a:hover {
@@ -53,12 +64,8 @@ nav a:hover {
 
 .logo {
     display: flex;
-    background-color: #FFB8AD;
-    height: 90px
-}
-
-.logo h1 {
-    font-style: italic;
+    height: 150px;
+    padding-left: 20px;
 }
 
 header {
@@ -69,12 +76,22 @@ header {
     padding: 5px 15px;
 }
 
+.navigation_bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .section_header {
 
     background-color: #ffc558;
     text-align: center;
     padding: 5px 10px;
 
+}
+
+.section_header h1 {
+    font-style: italic;
 }
 
 .content {
@@ -140,7 +157,6 @@ aside ul {
 
 }
 
-
 .image_one {
 
     height: 500px;
@@ -189,7 +205,6 @@ nav {
 nav a {
     padding: 15px 10px;
     display: inline-block;
-    background-color: #FFB8AD;
 }
 
 body {

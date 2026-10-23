@@ -131,6 +131,10 @@ header {
     }
 }
 
+.paragraph_two h1 {
+    font-style: italic;
+}
+
 .paragraph_three {
 
     text-align: center;
