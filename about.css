@@ -52,34 +52,9 @@ a {
     color: black;
 }
 
-aside a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
-}
-
 nav a:hover {
     background-color: rgb(255, 255, 126);
     color: #ee978a;
-}
-
-aside ul {
-    
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-    height: 100%;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    
-}
-
-aside a {
-    display: inline-block;
-    margin-bottom: 30px;
-    padding: 8px;
-    text-decoration: none;
 }
 
 .container {
@@ -144,40 +119,15 @@ header {
 
 .paragraph_one,.paragraph_two {
     background-color: #FFB8AD;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 50px;
     border-radius: 16px;
 }
-
 
 @media (max-width: 900px) {
     .paragraph_one,
     .paragraph_two {
         padding: 20px;
     }
-}
-
-.right_content {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    padding: 10px;
-    min-width: 0;
-}
-
-.image_one {
-    width: 100%;
-}
-
-.image_one img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 .fun_facts {
@@ -192,10 +142,12 @@ header {
     border-radius: 16px;
 }
 
-.paragraph_three ul {
+.paragraph_three {
     list-style-type: none;
     text-align: center;
     margin-right: 10px;
+    background-color: white;
+    border-radius: 16px;
 
 }
 
