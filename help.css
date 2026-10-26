@@ -57,6 +57,11 @@ nav a:hover {
     color: #ee978a;
 }
 
+aside a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
+}
+
 .container {
     width: 100%;
     margin: 0;
@@ -76,22 +81,12 @@ header {
     padding: 5px 15px;
 }
 
-.navigation_bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
 .section_header {
 
     background-color: #ffc558;
     text-align: center;
     padding: 5px 10px;
 
-}
-
-.section_header h1 {
-    font-style: italic;
 }
 
 .content {
@@ -134,28 +129,26 @@ header {
 
 }
 
-aside a {
-    display: block;
-    width: fit-content;
-    margin-left: 0;
-    margin-right: auto;
-    margin-bottom: 25px;
-    padding: 8px;
-    background-color: #FFB8AD;
-}
-
 aside ul {
-
-    list-style-type: none;
     
     display: flex;
     flex-direction: column;
-    gap: 20%;
-    padding-left: 0;
-    text-align: center;
-    margin: 0 0 10px 0;
-
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    
 }
+
+aside a {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 8px;
+    text-decoration: none;
+}
+
 
 .image_one {
 
@@ -205,6 +198,12 @@ nav {
 nav a {
     padding: 15px 10px;
     display: inline-block;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 body {
