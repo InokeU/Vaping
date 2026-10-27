@@ -73,8 +73,54 @@ let quizData = [
 
 ];
 
+const quizContainer = document.querySelector(".quiz_container");
+const question = document.querySelector(".quiz_container .question");
+const options = document.querySelector(".quiz_container .options");
+const nextBtn = document.querySelector(".quiz_container .next-btn");
+const quizResult = document.querySelector(".quiz_result")
+
+let questionNumber = 0;
+const MAX_QUESTIONS = 5;
+
+const shuffleArray = array => {
+
+   return array.slice().sort(() => Math.random() - 0.5);
+
+};
+
+quizData = shuffleArray(quizData);
+
 const createQuestion = () =>  {
-   
+   options.innerHTML = "";
+   question.innerHTML = `<span class='question_number'>${
+      questionNumber + 1
+   /$}|</span>${quizData[questionNumber].question}`;
+
+   const shuffledOptions = shuffleArray(quizData[questionNumber].options);
+
+   quizData[questionNumber].options.forEach( (o) => {
+      const option = document.createElement("button");
+      option.classList.add("option");
+      option.innerHTML = o;  
+      options.appendChild(option);
+   });
+};
+
+const displayQuizResult = () => {
+   quizResult.style.display = "flex";
+   quizContainer.style.display = "none";
 }
 
+
 createQuestion();
+
+const displayNextQuestion = () => {
+   if (questionNumber >= MAX_QUESTIONS - 1) {
+      displayQuizResult();
+   }
+
+   questionNumber++;
+   createQuestion();
+};
+
+nextBtn.addEventListener("click", displayNextQuestion);
