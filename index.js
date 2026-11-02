@@ -105,4 +105,8 @@ function nextQuestion () {
    }
 }
 
+let nextButton = document.querySelector(".next-btn");
+
+nextButton.addEventListener("click", nextQuestion);
+
 showQuestion();
