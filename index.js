@@ -1,3 +1,4 @@
+console.log ("Javascript is working!");
 let quizData = [
 
    {
@@ -30,18 +31,18 @@ let quizData = [
          "An arm disease",
          "I don't know" 
       ],
-      correct: "The suspended state of liquid droplets and other particles in the air released through a vape device", 
+      correct: "The suspended state of liquid droplets and other particles released through a vape device", 
    },
 
     {
       question: "What are the one of the valid uses for vaping?",
       options: [
-         "To help quit smoking", 
+         "As an aid to quit smoking", 
          "For children to play with ",
          "When you're bored",
          "I don't know" 
       ],
-      correct: "To help quit smoking", 
+      correct: "As an aid to quit smoking", 
    },
 
     {
@@ -52,11 +53,11 @@ let quizData = [
          "An addictive substance that can make you addicted to vaping",
          "I don't know" 
       ],
-      correct: "Increases risk of heart disease", 
+      correct: "An addictive substance that can make you addicted to vaping", 
    },
 
     {
-      question: "What should you do if you struggle with trying to quit vaping?",
+      question: "What should you do if you struggle with trying to quit vaping? (Select all that apply)",
       options: [
          "Seek professional help where you can", 
          "Talk with people you really trust to help you",
@@ -73,54 +74,35 @@ let quizData = [
 
 ];
 
-const quizContainer = document.querySelector(".quiz_container");
-const question = document.querySelector(".quiz_container .question");
-const options = document.querySelector(".quiz_container .options");
-const nextBtn = document.querySelector(".quiz_container .next-btn");
-const quizResult = document.querySelector(".quiz_result")
+let currentQuestion = 0;
+let question = document.querySelector(".question");
+let options = document.querySelector(".options");
 
-let questionNumber = 0;
-const MAX_QUESTIONS = 5;
+function showQuestion () {
+   let q = quizData[currentQuestion];
+   question.textContent = q.question;
 
-const shuffleArray = array => {
-
-   return array.slice().sort(() => Math.random() - 0.5);
-
-};
-
-quizData = shuffleArray(quizData);
-
-const createQuestion = () =>  {
    options.innerHTML = "";
-   question.innerHTML = `<span class='question_number'>${
-      questionNumber + 1
-   /$}|</span>${quizData[questionNumber].question}`;
 
-   const shuffledOptions = shuffleArray(quizData[questionNumber].options);
+   console.log("Current question:", q);
+   console.log("Answer options:", q.options);
 
-   quizData[questionNumber].options.forEach( (o) => {
-      const option = document.createElement("button");
-      option.classList.add("option");
-      option.innerHTML = o;  
-      options.appendChild(option);
+   q.options.forEach(function(option) {
+      let button = document.createElement("button");
+      button.textContent = option;
+      button.classList.add("option");
+
+      options.appendChild(button);
+
    });
-};
-
-const displayQuizResult = () => {
-   quizResult.style.display = "flex";
-   quizContainer.style.display = "none";
 }
 
+function nextQuestion () {
+   currentQuestion++;
 
-createQuestion();
-
-const displayNextQuestion = () => {
-   if (questionNumber >= MAX_QUESTIONS - 1) {
-      displayQuizResult();
+   if (currentQuestion < quizData.length) {
+      showQuestion();
    }
+}
 
-   questionNumber++;
-   createQuestion();
-};
-
-nextBtn.addEventListener("click", displayNextQuestion);
+showQuestion();
