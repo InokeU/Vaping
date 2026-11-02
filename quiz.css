@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     font-family: "Archivo Black";
-    font-size: 32px;
+    font-size: 20px;
 }
 
 h3 {
@@ -43,16 +43,13 @@ p, a, ul {
 
     font-size: 18px;
     text-decoration: none;
+    letter-spacing: 1.5px;
 
 }
 
 a {
     font-style: italic;
-}
-
-aside a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
+    color: black;
 }
 
 nav a:hover {
@@ -60,29 +57,20 @@ nav a:hover {
     color: #ee978a;
 }
 
-aside ul {
-    
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-    height: 100%;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    
-}
-
-aside a {
-    display: inline-block;
-    margin-bottom: 25px;
-    padding: 8px;
-    background-color: #FFB8AD;
+aside a:hover {
+    background-color: rgb(255, 255, 126);
+    color: #ee978a;
 }
 
 .container {
     width: 100%;
     margin: 0;
+}
+
+.logo {
+    display: flex;
+    height: 150px;
+    padding-left: 20px;
 }
 
 header {
@@ -93,11 +81,48 @@ header {
     padding: 5px 15px;
 }
 
+.section_header {
+
+    background-color: #ffc558;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+
+.content {
+
+    background: #ffe0db;
+    margin: 10px;
+
+}
+
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    padding: 15px 10px;
+    display: inline-block;
+}
+
 .navigation_bar {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    text-align: center;
+    background-color: #ffcb52;
+    padding: 20px 0 20px 0;
+    font-style: italic;
+}
+
 
 .quiz_container {
     max-width: 900px;
