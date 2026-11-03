@@ -92,8 +92,11 @@ function showQuestion () {
       button.textContent = option;
       button.classList.add("option");
 
-      options.appendChild(button);
+      button.addEventListener("click", function() {
+         console.log("You selected: " + option);
+      });
 
+      options.appendChild(button);
    });
 }
 
