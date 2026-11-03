@@ -93,7 +93,11 @@ function showQuestion () {
       button.classList.add("option");
 
       button.addEventListener("click", function() {
-         console.log("You selected: " + option);
+         if (option === q.correct) {
+            console.log("Correct!");
+         } else {
+         console.log("You selected: "Incorrect!");}
+         }
       });
 
       options.appendChild(button);
