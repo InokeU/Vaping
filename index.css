@@ -193,14 +193,15 @@ header {
     gap: 20px;
 }
 
-.shorttext_one,
-.shorttext_two,
-.shorttext_three,
-.shorttext_four
+.shorttext_one p,
+.shorttext_two p,
+.shorttext_three p,
+.shorttext_four p 
 
 {
     border: 6px solid rgb(209, 125, 125);
     background-color: rgb(255, 161, 161);
+    display: none;
 }
 
 @media (max-width: 900px) {
