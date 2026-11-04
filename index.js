@@ -1,4 +1,11 @@
-let brainCard = document.querySelector(".shorttext_one");
+let cards = document.querySelectorAll(".shorttext div");
 
-let brainInfo = brainCard.querySelector("p");
+cards.forEach(function(card) {
+    card.addEventListener("mouseenter", function() {
+        card.classList.add("show-info");
+    });
 
+    card.addEventListener("mouseleave", function() {
+        card.classList.remove("show-info");
+    });
+});

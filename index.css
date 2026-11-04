@@ -196,12 +196,20 @@ header {
 .shorttext_one p,
 .shorttext_two p,
 .shorttext_three p,
-.shorttext_four p 
-
-{
+.shorttext_four p {
     border: 6px solid rgb(209, 125, 125);
     background-color: rgb(255, 161, 161);
-    display: none;
+}
+
+.shorttext p {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+}
+
+.shorttext .show-info p {
+    opacity: 1;
+    visibility: visible;
 }
 
 @media (max-width: 900px) {
