@@ -65,3 +65,27 @@ let quizData = [
         ]
     }
 ];
+
+let currentQuestion = 0;
+
+let question = document.querySelector(".question");
+let options = document.querySelector(".options");
+
+function showQuestion() {
+    let q = quizData[currentQuestion];
+
+    question.textContent = q.question;
+
+    options.innerHTML = "";
+
+    q.options.forEach(function(option) {
+        let button = document.createElement("button");
+
+        button.textContent = option;
+        button.classList.add("option");
+
+        options.appendChild(button);
+    });
+}
+
+showQuestion();
