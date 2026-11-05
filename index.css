@@ -230,13 +230,46 @@ header {
 .shorttext_two,
 .shorttext_three,
 .shorttext_four {
-    min-height: 180px;
+    position: relative;
+    min-height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     border: 6px solid rgb(209, 125, 125);
     background-color: rgb(255, 161, 161);
+    box-sizing: border-box;
+}
+
+.shorttext h2 {
+    position: relative; 
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+    transition: opacity 0.4s ease;
+}
+
+.shorttext .show-info h2 {
+    opacity: 0;
+    position: absolute; 
+    pointer-events: none;
+}
+
+.shorttext p {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: opacity 0.4s ease;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.shorttext .show-info p {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
 }
 
 .right_content {
@@ -305,5 +338,120 @@ body {
     background-color: #ffcb52;
     padding: 20px 0 20px 0;
     font-style: italic;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    header {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .logo {
+        height: auto;
+        padding: 0;
+    }
+
+    .logo img {
+        height: 90px;
+        width: auto;
+    }
+
+    nav {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navigation_bar {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        letter-spacing: 0;
+        padding: 8px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .hero_text {
+        width: 100%;
+        max-width: 100%;
+        min-height: 180px;
+    }
+
+    .hero_text h1 {
+        font-size: 25px;
+    }
+
+    .hero_text p {
+        font-size: 15px;
+    }
+
+    .hero_image_one img,
+    .hero_image_two img {
+        max-width: 75px;
+    }
+
+
+    .section_header_one h2 {
+        font-size: 24px;
+    }
+
+
+    .content {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    .side_bar {
+        padding: 15px;
+    }
+
+    .paragraph_one,
+    .paragraph_two {
+        padding: 20px;
+        min-width: 0;
+    }
+
+    .right_content {
+        min-width: 0;
+    }
+
+    .shorttext_one,
+    .shorttext_two,
+    .shorttext_three,
+    .shorttext_four {
+        min-height: 180px;
+        padding: 15px;
+    }
+
+    .shorttext h2 {
+        position: static;
+        font-size: 17px;
+    }
+
+    .shorttext p {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 15px;
+        overflow-wrap: anywhere;
+    }
+
 }
 
