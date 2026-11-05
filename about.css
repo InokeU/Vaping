@@ -226,3 +226,70 @@ body {
     padding: 20px 0 20px 0;
     font-style: italic;
 }
+
+@media screen and (max-width: 900px) {
+
+
+    header {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .logo {
+        height: auto;
+        padding: 0;
+    }
+
+    .logo img {
+        height: 90px;
+        width: auto;
+    }
+
+    nav {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navigation_bar {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        letter-spacing: 0;
+        padding: 8px;
+    }
+
+    .section_header_one h2 {
+        font-size: 24px;
+    }
+
+
+    .content {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    .side_bar {
+        padding: 15px;
+    }
+
+    .paragraph_one,
+    .paragraph_two {
+        padding: 20px;
+        min-width: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 15px;
+        overflow-wrap: anywhere;
+    }
+
+}
