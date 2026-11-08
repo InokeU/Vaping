@@ -53,13 +53,13 @@ a {
 }
 
 aside a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
+    background-color: #6b6ba7(255, 255, 126);
+    color: #ffffff;
 }
 
 nav a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
+    background-color: #7272b8(255, 255, 126);
+    color: #ffffff;
 }
 
 aside ul {
@@ -91,7 +91,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffe5a8;
+    background-color: #ffdbfc;
     padding: 5px 15px;
 }
 
@@ -121,7 +121,7 @@ header {
     max-width: 500px;
     min-height: 255px;
 
-    background-color: #FFB8AD;
+    background-color: #fbd0ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,14 +139,14 @@ header {
 
 .section_header_one {
 
-    background-color: #ffc558;
+    background-color: #eaa7ff;
     padding: 5px 10px;
 
 }
 
 .section_header_one h2 {
 
-    background-color: #ffc558;
+    background-color: #eaa7ff;
     text-align: center;
     font-size: 32px;
     font-style: italic;
@@ -159,7 +159,7 @@ header {
     grid-template-columns: 250px 1fr 350px;
     min-height: 700px;
     gap: 10px;
-    background-color: #ffe0db;
+    background-color: #f8a5ff;
     border-radius: 16px;
 }
 
@@ -177,7 +177,7 @@ header {
 }
 
 .paragraph_one,.paragraph_two {
-    background-color: #FFB8AD;
+    background-color: #f6c6fa;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -239,8 +239,8 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    border: 6px solid rgb(209, 125, 125);
-    background-color: rgb(255, 161, 161);
+    border: 6px solid #f371ff;
+    background-color: #f7a3ff;
     box-sizing: border-box;
 }
 
@@ -292,7 +292,7 @@ header {
 }
 
 .fun_facts {
-    background-color: white;
+    background-color: #c485ca;
     width: 100%;
     align-items: center;
     height: auto;
@@ -325,18 +325,18 @@ nav a {
 
 .side_bar {
 
-    background-color: #ffe5a8;
+    background-color: #fbd0ff;
     padding: 30px;
 
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #f4f6ff;
 }
 
 .footer {
     text-align: center;
-    background-color: #ffcb52;
+    background-color: #d790f3;
     padding: 20px 0 20px 0;
     font-style: italic;
 }
