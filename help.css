@@ -294,6 +294,6 @@ body {
 
     .footer {
         padding: 15px;
-        overflow-wrap: anywhere;
+        overflow-wrap: break-word;
     }
 }
