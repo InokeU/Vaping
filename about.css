@@ -62,14 +62,6 @@ nav a:hover {
     margin: 0;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffe5a8;
-    padding: 5px 15px;
-}
-
 .navigation_bar {
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +80,7 @@ header {
 
 .section_header h2 {
 
-    background-color: #ffc558;
+    background-color:#eaa7ff;
     text-align: center;
     font-size: 32px;
     font-style: italic;
@@ -119,7 +111,7 @@ header {
 }
 
 .paragraph_one {
-    background-color: #FFB8AD;
+    background-color: #f6c6fa;
     padding: 50px;
     border-radius: 16px;
 }
@@ -139,7 +131,7 @@ header {
 .paragraph_three {
 
     text-align: center;
-    background-color: white;
+    background-color:#f6c6fa;
     border-radius: 16px;
 
 }
@@ -168,13 +160,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffe5a8;
+    background-color: #ffdbfc;
     padding: 5px 15px;
 }
 
 .section_header {
 
-    background-color: #ffc558;
+    background-color: #eaa7ff;
     text-align: center;
     padding: 5px 10px;
 
@@ -186,13 +178,13 @@ header {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #ffb777;
+    background-color:#f8a5ff;
     padding: 100px;
     min-height: 700px;
 }
 
 .paragraph_two {
-    background-color: rgb(255, 255, 255);
+    background-color:#f6c6fa;
     justify-content: center;
     text-align: center;
     padding: 50px;
@@ -223,7 +215,7 @@ body {
 .footer {
     margin-top: 15px;
     text-align: center;
-    background-color: #ffcb52;
+    background-color: #d790f3;
     padding: 20px 0 20px 0;
     font-style: italic;
 }
