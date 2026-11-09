@@ -53,13 +53,13 @@ a {
 }
 
 nav a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
+    background-color: #feffb1;
+    color: #ff8077;
 }
 
 aside a:hover {
-    background-color: rgb(255, 255, 126);
-    color: #ee978a;
+    background-color: #feffb1;
+    color: #ff8077;
 }
 
 .container {
